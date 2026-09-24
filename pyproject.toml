@@ -1,0 +1,6 @@
+[project]
+name = "loan-underwriting-agentic-rag"
+version = "0.1.0"
+description = "A bounded evidence-gathering agent for synthetic underwriting cases"
+requires-python = ">=3.9"
+dependencies = []

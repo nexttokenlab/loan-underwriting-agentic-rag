@@ -1,0 +1,76 @@
+{
+  "applications": {
+    "APP-001": {
+      "product": "DEMO-MORTGAGE"
+    },
+    "APP-002": {
+      "product": "DEMO-MORTGAGE"
+    }
+  },
+  "documents": [
+    {
+      "id": "A1-APPLICATION",
+      "kind": "application",
+      "application_id": "APP-001",
+      "title": "Synthetic income application",
+      "page": 1,
+      "text": "Declared monthly income 10000 includes salary 8000 and variable bonus 2000. Total monthly debt obligations including proposed housing payment are 3000. All amounts use synthetic currency units.",
+      "monthly_income": "10000",
+      "monthly_debts": "3000"
+    },
+    {
+      "id": "A1-PAYSLIP",
+      "kind": "payslip",
+      "application_id": "APP-001",
+      "title": "September 2026 payslip",
+      "page": 1,
+      "text": "Gross base salary 8000. Net salary credit 6200 after deductions. Variable bonus is not guaranteed."
+    },
+    {
+      "id": "A1-BONUS-2025",
+      "kind": "statement",
+      "application_id": "APP-001",
+      "title": "Annual bonus history 2025",
+      "page": 1,
+      "text": "Annual employer bonus statement for completed year 2025: bonus paid 24000."
+    },
+    {
+      "id": "A2-APPLICATION",
+      "kind": "application",
+      "application_id": "APP-002",
+      "title": "Other synthetic borrower salary",
+      "page": 1,
+      "text": "Monthly salary income 20000. This belongs to a different applicant."
+    },
+    {
+      "id": "P-BONUS-V2",
+      "kind": "policy",
+      "product": "DEMO-MORTGAGE",
+      "title": "Fictional bonus income policy v2",
+      "page": 2,
+      "effective_from": "2026-01-01",
+      "effective_to": "2027-01-01",
+      "text": "Fictional training rule: variable bonus income requires employer statements covering two completed calendar years. If history is incomplete, identify missing evidence and refer to the underwriter. This rule is not a real lending regulation."
+    },
+    {
+      "id": "P-BONUS-V1",
+      "kind": "policy",
+      "product": "DEMO-MORTGAGE",
+      "title": "Expired fictional bonus policy",
+      "page": 2,
+      "effective_from": "2024-01-01",
+      "effective_to": "2026-01-01",
+      "text": "Superseded fictional rule: bonus history requires one year."
+    },
+    {
+      "id": "P-OTHER",
+      "kind": "policy",
+      "product": "DEMO-AUTO",
+      "title": "Different product policy",
+      "page": 1,
+      "effective_from": "2026-01-01",
+      "effective_to": "2027-01-01",
+      "text": "Different product bonus history policy; must not be retrieved for a mortgage."
+    }
+  ]
+}
