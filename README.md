@@ -1,6 +1,5 @@
 # Loan Underwriting Agentic RAG
 
-An interview-friendly reference implementation of an **income-evidence investigation assistant**. The agent chooses follow-up searches after observing retrieved evidence; financial arithmetic and retrieval boundaries remain deterministic. All sample applicants and policies are fictional. Every assessment requires human review.
 
 ## Start in 30 seconds
 
